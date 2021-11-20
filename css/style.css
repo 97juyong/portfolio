@@ -193,9 +193,6 @@ input,textarea {outline:0;}
 .cont4 {padding: 100px 0;}
 .cont4 .swiper {width: 100%; height: 500px;}
 .cont4 .swiper-button-prev, .swiper-button-next {color: #ef5536;}
-.cont4 .swiper-pagination {bottom: 0px;}
-.cont4 .swiper-pagination-bullet {width: 13px; height: 13px; transition: all 0.5s;}
-.cont4 .swiper-pagination-bullet-active  {background-color: crimson; width: 40px; border-radius: 7px;}
 .cont4 .swiper-slide {position: relative;}
 .cont4 .swiper-slide article {
     width: 90%; height: 100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
@@ -204,9 +201,25 @@ input,textarea {outline:0;}
 .cont4 .swiper-slide .left {height: 92%; width: 75%; margin: auto; overflow: hidden;}
 .cont4 .swiper-slide .left img {width: 100%;}
 .cont4 .swiper-slide .right {width: 230px; margin: auto 10px;}
-.cont4 .swiper-slide .right h3 {margin-bottom: 20px; font-size: 24px; color: crimson;}
-.cont4 .swiper-slide .right p {margin-bottom: 5px;}
-.cont4 .swiper-slide .right a {display: inline-block; line-height: 40px; margin-top: 40px; padding: 0 15px; background-color: crimson; color: #fff; border-radius: 5px;}
+.cont4 .swiper-slide .right h3 {margin-bottom: 20px; font-size: 26px; }
+.cont4 .swiper-slide .right p {margin-bottom: 15px; line-height: 1.5; font-size: 18px; color: #444;}
+.cont4 .swiper-slide .right a {display: inline-block; line-height: 40px; margin-top: 20px; font-weight: 700; padding: 0 15px; border-radius: 5px; transition: all 0.5s;}
+/* 쌍용 포트폴리오 텍스트 색상 변경 */
+.cont4 .swiper-slide.ssangyong .right h3 {color: #dc0022;}
+.cont4 .swiper-slide.ssangyong .right a { background-color: #dc0022; color: #fff; border: 1px solid #dc0022;}
+.cont4 .swiper-slide.ssangyong .right a:hover {background-color: #fff; color: #dc0022;}
+/* 벤츠 포트폴리오 텍스트 색상 변경 */
+.cont4 .swiper-slide.benz .right h3 {color: #000;}
+.cont4 .swiper-slide.benz .right a { background-color: #000; color: #fff; border: 1px solid #000;}
+.cont4 .swiper-slide.benz .right a:hover {background-color: #fff; color: #000;}
+/* 컨셉페이지1 포트폴리오 텍스트 색상 변경 */
+.cont4 .swiper-slide.concept1 .right h3 {color: royalblue;}
+.cont4 .swiper-slide.concept1 .right a { background-color: royalblue; color: #fff; border: 1px solid royalblue;}
+.cont4 .swiper-slide.concept1 .right a:hover {background-color: #fff; color: royalblue;}
+/* 엔비디아 포트폴리오 텍스트 색상 변경 */
+.cont4 .swiper-slide.nvidia .right h3 {color: #76b900;}
+.cont4 .swiper-slide.nvidia .right a { background-color: #76b900; color: #fff; border: 1px solid #76b900;}
+.cont4 .swiper-slide.nvidia .right a:hover {background-color: #fff; color: #76b900;}
 
 /* footer */
 #footer {padding: 100px 0 30px; text-align: center; background-color: #efefef;}
